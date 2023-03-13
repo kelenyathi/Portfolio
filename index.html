@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+    }
+    
+    header {
+      background-color: #f2f2f2;
+      padding: 20px;
+      text-align: center;
+    }
+    
+    h1 {
+      font-size: 36px;
+      margin-bottom: 0;
+    }
+    
+    img {
+      border-radius: 50%;
+      height: 150px;
+      width: 150px;
+    }
+    
+    nav {
+      background-color: #333;
+      color: #fff;
+      display: flex;
+      justify-content: center;
+    }
+    
+    nav a {
+      color: #fff;
+      padding: 20px;
+      text-decoration: none;
+    }
+    
+    nav a:hover {
+      background-color: #ddd;
+      color: #333;
+    }
+    
+    section {
+      padding: 50px;
+    }
+    
+    h2 {
+      font-size: 24px;
+    }
+    
+    .app-container {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+    
+    .app {
+      margin: 20px;
+      cursor: pointer;
+    }
+    
+    .app img {
+      height: 200px;
+      width: 200px;
+      border-radius: 10px;
+      transition: all 0.3s;
+    }
+    
+    .app img:hover {
+      transform: scale(1.1);
+    }
+    
+    .app:first-child img {
+      height: 300px;
+      width: 300px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="avatar.jpg" alt="My Avatar">
+    <h1>John Doe</h1>
+  </header>
+  
+  <nav>
+    <a href="#about">About</a>
+    <a href="#work">Work</a>
+    <a href="#contact">Contact</a>
+  </nav>
+  
+  <section id="about">
+    <h2>About Me</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis malesuada tincidunt est, vel ultrices nulla commodo in. Donec mattis elit at augue gravida posuere. Nulla vitae sapien eu odio pretium tristique. Integer commodo ante in massa sagittis, sit amet maximus erat ultrices. Donec euismod nisl et magna vulputate lacinia.</p>
+  </section>
+  
+  <section id="work">
+    <h2>My Work</h2>
+    <div class="app-container">
+      <div class="app">
+        <img src="app1.jpg" alt="My First App">
+        <h3>My First App</h3>
+      </div>
+      <div class="app">
+        <img src="app2.jpg" alt="My Second App">
+        <h3>My Second App</h3>
+      </div>
+      <div class="app">
+        <img src="app3.jpg" alt="My Third App">
+        <h3>
