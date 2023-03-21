@@ -1,2 +1,5 @@
 # Portfolio
-Portfolio to showcase my skills &amp; talents
+Portfolio to showcase my web development skills 
+Used:
+CSS
+HTML
