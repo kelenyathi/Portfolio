@@ -1,0 +1,332 @@
+* {
+  box-sizing: border-box;
+}
+
+/* Declaring css variables */ 
+
+/* :root {
+  --blue-lagoon: #094af1;
+  --blood-orange: #f56e51;
+  --flaming-breath: white;
+  --black: #000000;
+  --rocky-grey: #818592;
+  --white: #ffffff;
+  --dark-lagoon: #1c326a;
+  --page-wrapper: 1280px;
+  } */
+  
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  line-height: 1.5;
+}
+
+/* <-- main logo / nav --> */ 
+
+h1 {
+  font-size: 2.8rem;
+  margin: 0;
+  color: var(--flaming-breath);
+}
+
+
+.page-wrapper {
+  max-width: var(--page-wrapper);
+  margin: 0 auto;
+  width: 100%;
+}
+
+.page-wrapper-view {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+
+header {
+  background-color: cornflowerblue;
+  padding: 8px 0 8px 0;
+}
+
+
+.logo {
+  justify-content: flex-start;
+  display: flex;
+  white-space: nowrap;
+  background-color: #2a607c;
+  padding-left: 40px;
+  padding-left: 640px;
+  margin-left: -600px;
+}
+
+nav {
+  width: 100%;
+}
+
+.headbox {
+  display: flex;
+}
+
+#navigation ul{
+  float: right;
+  padding: 8px 0 8px 0;
+}
+
+#navigation {
+  display: flex;
+  justify-content: right;
+}
+
+nav > ul > li {
+  display: flex;
+  justify-content: flex-end;
+  width: auto;
+  float: left;
+  margin-right: 16px;
+}
+
+a:visited, a:link, a:active {
+    padding-bottom: 1px;
+    border-bottom-style: solid;
+    border-bottom-width: 3px;
+    width: fit-content;
+    color: white;
+    text-decoration: none;
+}
+
+nav > a {
+  padding: 1em;
+  color: white;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  font-size: 1rem;
+}
+
+.hero-banner > h2 {
+  font-size: 2.4rem;
+}
+
+.hero-banner {
+  background-image: url();
+  background-repeat: no-repeat;
+  display: flex;
+  height: 26vh;
+  background-size: cover;
+  justify-content: space-between;
+  background-position: center;
+}
+
+.banner {
+  display: flex;
+    justify-content: flex-start;
+    width: 100%;
+    align-items: flex-start;
+}
+
+.container-banner {
+  display: flex;
+  justify-content: flex-start;
+  width: auto;
+}
+
+
+.banner-heading {
+  font-size: 2.8em;
+  color: white;
+  white-space: nowrap;
+  align-items: end;
+  display: flex;
+  margin-bottom: 16px;
+  margin-top: auto;
+  background-color: #cbcdce;
+}
+
+
+.box-banner {
+  display: flex;
+  justify-content: end;
+}
+
+.page-section {
+  display: flex;
+  margin-bottom:16px;
+  margin-top: 16px;
+}
+
+.verticalLine {
+  text-align: end;
+  font-size: 2.8em;
+  display: flex;
+  width: 15%;
+  justify-content: end;
+    margin-right: 16px;
+}
+
+.aboutMeParagraph {
+  padding-left: 2rem;
+  border-left-style: solid;
+  width: 85%;
+}
+
+#work {
+  display: flex;
+} 
+
+.large {
+display: flex;
+width: 100%;
+height: 50%;
+background-image: url();
+border-style: solid;
+border-width: 5px;
+border-color: white;
+background-size: cover;
+height: 30vh;
+margin-bottom: 8px;
+}
+
+.large:hover {
+  -webkit-filter: brightness(120%);
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.many {
+  display: flex;
+  flex-direction: row;
+  flex-grow: 1;
+  gap: 8px;
+}
+
+a.box {
+  display: flex;
+  background-image: url();
+  width: 50%;
+  flex-basis: auto; 
+  align-self: flex-start;
+  flex-direction: row;
+  height: 50%;
+  border-style: solid;
+  border-width: 5px;
+  border-color: var(--flaming-breath);
+  height: 15vh;
+}
+
+.box:hover {
+  -webkit-filter: brightness(140%);
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.box:nth-child(n+1) {
+  margin-bottom: 8px;
+}
+
+.contact {
+  display: flex;
+  height: 75%;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-items {
+  list-style-type: none; 
+  margin-right: 8px;
+  display: flex;
+  flex-grow: 1;
+}
+
+.heading-down {
+  display: block;
+  justify-self: start;
+  align-self: end;
+  text-decoration: none;
+  margin-bottom: 0;
+  margin-top: 0;
+  text-decoration: none;
+  background-color: black;
+  padding-left: 36px;
+  padding-right: 36px;
+  line-height: 0.8;
+  margin-bottom: 18px;
+}
+
+.heading-down a {
+  text-decoration: none !important;
+  border: none;
+}
+
+a.dark {
+  color: var(--black);
+}
+
+@media screen and (max-width: 979px) {
+  .page-section{flex-direction: column ;
+  }
+
+  .verticalLine{
+    width: 100%;
+    justify-content: left;
+  }
+
+  .page-section{
+    margin-left: 16px;
+    margin-right: 16px;
+  }
+
+  .aboutMeParagraph{
+    border: none;
+    padding: 0;
+    width: 100%;
+  }
+
+  .verticalLine{
+    border-bottom: 2px solid #000;
+  }
+
+  .headbox{
+    flex-direction: column;
+  }
+
+  .logo {
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+  }
+
+  header {
+    padding: 0;
+  }
+
+  #navigation {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 769px)
+{
+  .verticalLine{font-size:1.4rem;
+  }
+
+  .many {
+    flex-direction: column;
+  }
+
+  a.box {
+    width: 100%;
+  }
+
+  .contact {
+    display: block;
+    padding-left: 0px;
+  }
+}
